@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name='ocsp-responder-server',
   packages=['ocsp_responder_server'],
-  version='0.4',
+  version='0.5',
   license='MIT',
   description='Simple OCSP Responder RPC Server',
   long_description='Simple OCSP Responder Server using json-rpc and openssl-ocsp-responder',
