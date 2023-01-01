@@ -10,7 +10,7 @@ setup(
   author_email='deborah.jalfon@redis.com',
   url='https://github.com/deborahjalfont/ocsp-responder-server',
   keywords=['ocsp', 'responder', 'server'],
-  install_requires=['json-rpc', 'werkzeug', 'cryptography', 'pyopenssl', 'openssl-ocsp-responder'],
+  install_requires=['json-rpc', 'werkzeug', 'cryptography==38.0.4', 'pyopenssl==22.1.0', 'openssl-ocsp-responder'],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
